@@ -1,0 +1,28 @@
+<div class="row p-2 m-0 bg bg-gradient h-75">
+    <article class="col-2 align-content-center">
+        <img class="border rounded-circle w-100 border-2 border-dark" src="assets/anup-salve.JPEG" alt="anup salve" />
+    </article>
+    <h1 class="col-5 d-inline overflow-hidden align-content-center"><pre class="d-inline-block m-0 p-0 fw-bolder">{{text}}{{spaces}}{{dots}}</pre></h1>
+    <div class="col-5 align-content-center">
+        <div class="d-flex flex-column" *ngIf="startSnakeGame">
+            <ng-container *ngFor="let row of grid">
+                <div class="row-box m-0 p-0">
+                    <ng-container *ngFor="let col of row">
+                        <span class="box d-inline-flex m-0 p-0"
+                            [ngClass]="col == 0 ? 'bg-transparent' : 'bg-dark'"
+                            ></span>
+                    </ng-container>
+                </div>
+            </ng-container>    
+        </div>
+    </div>
+</div>
+<!-- Add Projects -->
+<div class="row h-75 m-0 p-2">
+<!-- Technologies -->
+    <h2 class="m-0 fw-bolder">What I do...</h2>
+
+</div>
+<div>
+    <!-- Contact Me -->
+</div>
