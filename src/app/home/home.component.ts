@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { BehaviorSubject, concatMap, delay, from, of } from 'rxjs';
+import * as skills from '../../assets/skills.json';
 
 @Component({
   selector: 'app-home',
@@ -20,7 +21,8 @@ Welcome to my site`;
   DELAY_CONST: number = 50;
   grid: number[][] = [];
   startSnakeGame: boolean = false;
-
+  skills: any = skills;
+  
 
   constructor() { }
 

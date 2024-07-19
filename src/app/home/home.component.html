@@ -1,4 +1,4 @@
-<div class="row p-2 m-0 bg bg-gradient h-75">
+<section class="row p-2 m-0 bg bg-gradient h-75">
     <article class="col-2 align-content-center">
         <img class="border rounded-circle w-100 border-2 border-dark" src="assets/anup-salve.JPEG" alt="anup salve" />
     </article>
@@ -16,13 +16,34 @@
             </ng-container>    
         </div>
     </div>
-</div>
+</section>
 <!-- Add Projects -->
-<div class="row h-75 m-0 p-2">
+<section class="row h-75 m-0 p-2">
 <!-- Technologies -->
-    <h2 class="m-0 fw-bolder">What I do...</h2>
-
-</div>
+    <h2 class="my-3 fw-bolder text-center">What I do...</h2>
+    <div class="d-flex" ngbAccordion>
+        <ng-container *ngFor="let key of skills.keys">
+            <div class="d-flex flex-column align-items-center m-1 p-1" ngbAccordionItem>
+                <h4 class="m-1 text-center fw-bolder" ngbAccordionHeader>
+                    <button ngbAccordionButton>{{skills[key].content}}</button>
+                </h4>
+                <div ngbAccordionBody>
+                    <div ngbAccordionCollapse>
+                        <ng-template>
+                            <ul class="list-group list-group-horizontal d-flex flex-wrap align-items-start justify-content-center">
+                                <ng-container *ngFor="let skill of skills[key].data">
+                                    <li  class="list-group-item badge badge-primary m-2 p-2 border rounded">
+                                        {{skill}}
+                                    </li>
+                                </ng-container>
+                            </ul>
+                        </ng-template>
+                    </div>
+                </div>
+            </div>
+        </ng-container>    
+    </div>
+</section>
 <div>
     <!-- Contact Me -->
 </div>
