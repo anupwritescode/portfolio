@@ -1,0 +1,76 @@
+{
+    "keys": [
+        "frontend",
+        "backend",
+        "dbs",
+        "tools",
+        "cloud",
+        "process"
+    ],
+    "frontend" : {
+        "content": "Frontend",
+        "data": [
+            "Angular",
+            "React",
+            "Accessibility",
+            "NgRx",
+            "Redux",
+            "NX",
+            "HTML",
+            "CSS",
+            "SCSS",
+            "Bootstrap",
+            "Semantic HTML"
+        ]
+    },
+    "backend" : {
+        "content": "Backend",
+        "data": [
+            "Nodejs",
+            "Express",
+            "Nextjs"       
+        ]
+    },
+    "dbs" : {
+        "content": "Databases, Queues and Caches",
+        "data": [
+            "Mongodb",
+            "MySQL",
+            "Apache Kafka",
+            "RabbitMQ",
+            "Redis",
+            "ElasticSearch"    
+        ]
+    },
+    "tools" : {
+        "content": "Tools",
+        "data": [
+            "Docker",
+            "Kubernetes",
+            "JMeter",
+            "Jasmine",
+            "Karma",
+            "Azure DevOps",
+            "Storybook",
+            "Webpack",
+            "Git"
+        ]
+    },
+    "cloud" : {
+        "content": "Cloud",
+        "data": [
+            "AWS S3",
+            "AWS CloudFront",
+            "GKE"
+        ]
+    },
+    "process" : {
+        "content": "Processes and Architectures",
+        "data": [
+            "Agile",
+            "Sprints",
+            "T-Shirt Sizing",
+            "Microservices"
+        ]
+    }
+}
