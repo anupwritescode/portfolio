@@ -8,4 +8,5 @@ html, body, .inter-goog {
   font-variation-settings:
     "slnt" 0 !important;
   height: 100% !important;
+  margin: 0 !important;
 }
