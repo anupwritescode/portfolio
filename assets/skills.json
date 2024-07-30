@@ -10,67 +10,175 @@
     "frontend" : {
         "content": "Frontend",
         "data": [
-            "Angular",
-            "React",
-            "Accessibility",
-            "NgRx",
-            "Redux",
-            "NX",
-            "HTML",
-            "CSS",
-            "SCSS",
-            "Bootstrap",
-            "Semantic HTML"
+            {
+                "skill": "Angular",
+                "level": [1,1,1,1,1]
+            },
+            {
+                "skill": "React",
+                "level": [1,1,0,0,0]
+            },
+            {
+                "skill": "Accessibility",
+                "level": [1,1,1,1,0]
+            },
+            {
+                "skill": "NgRx",
+                "level": [1,1,1,0,0]
+            },
+            {
+                "skill": "Redux",
+                "level": [1,1,0,0,0]
+            },
+            {
+                "skill": "NX",
+                "level": [1,1,1,0,0]
+            },
+            {
+                "skill": "HTML",
+                "level": [1,1,1,1,1]
+            },
+            {
+                "skill": "CSS",
+                "level": [1,1,1,1,1]
+            },
+            {
+                "skill": "SCSS",
+                "level": [1,1,1,1,1]
+            },
+            {
+                "skill": "Bootstrap",
+                "level": [1,1,1,1,0]
+            },
+            {
+                "skill": "Semantic HTML",
+                "level": [1,1,1,1,0]
+            }
         ]
     },
     "backend" : {
         "content": "Backend",
         "data": [
-            "Nodejs",
-            "Express",
-            "Nextjs"       
+            {
+                "skill": "Nodejs",
+                "level": [1,1,1,0,0]
+            },
+            {
+                "skill": "Express",
+                "level": [1,1,1,0,0]
+            },
+            {
+                "skill": "Nextjs",
+                "level": [1,1,0,0,0]
+            }       
         ]
     },
     "dbs" : {
         "content": "Databases, Queues and Caches",
         "data": [
-            "Mongodb",
-            "MySQL",
-            "Apache Kafka",
-            "RabbitMQ",
-            "Redis",
-            "ElasticSearch"    
+            {
+                "skill": "Mongodb",
+                "level": [1,1,1,0,0]
+            },
+            {
+                "skill": "MySQL",
+                "level": [1,1,1,0,0]
+            },
+            {
+                "skill": "Apache Kafka",
+                "level": [1,1,0,0,0]
+            },
+            {
+                "skill": "RabbitMQ",
+                "level": [1,1,0,0,0]
+            },
+            {
+                "skill": "Redis",
+                "level": [1,1,1,0,0]
+            },
+            {
+                "skill": "ElasticSearch",
+                "level": [1,1,0,0,0]
+            }   
         ]
     },
     "tools" : {
         "content": "Tools",
         "data": [
-            "Docker",
-            "Kubernetes",
-            "JMeter",
-            "Jasmine",
-            "Karma",
-            "Azure DevOps",
-            "Storybook",
-            "Webpack",
-            "Git"
+            {
+                "skill": "Docker",
+                "level": [1,1,0,0,0]
+            },
+            {
+                "skill": "Kubernetes",
+                "level": [1,1,0,0,0]
+            },
+            {
+                "skill": "JMeter",
+                "level": [1,1,0,0,0]
+            },
+            {
+                "skill": "Jasmine",
+                "level": [1,1,1,0,0]
+            },
+            {
+                "skill": "Karma",
+                "level": [1,1,1,0,0]
+            },
+            {
+                "skill": "Azure DevOps",
+                "level": [1,1,1,1,0]
+            },
+            {
+                "skill": "Storybook",
+                "level": [1,1,0,0,0]
+            },
+            {
+                "skill": "Webpack",
+                "level": [1,1,0,0,0]
+            },
+            {
+                "skill": "Git",
+                "level": [1,1,1,1,0]
+            }
         ]
     },
     "cloud" : {
         "content": "Cloud",
         "data": [
-            "AWS S3",
-            "AWS CloudFront",
-            "GKE"
+            {
+                "skill": "AWS S3",
+                "level": [1,1,1,0,0]
+            },
+            {
+                "skill": "AWS CloudFront",
+                "level": [1,1,1,0,0]
+            },
+            {
+                "skill": "GKE",
+                "level": [1,1,0,0,0]
+            }
         ]
     },
     "process" : {
         "content": "Processes and Architectures",
         "data": [
-            "Agile",
-            "Sprints",
-            "T-Shirt Sizing",
-            "Microservices"
+            {
+                "skill": "Agile",
+                "level": [1,1,1,1,0]
+            },
+            {
+                "skill": "Sprints",
+                "level": [1,1,1,1,0]
+            },
+            {
+                "skill": "T-Shirt Sizing",
+                "level": [1,1,1,1,0]
+            },
+            {
+                "skill": "Microservices",
+                "level": [1,1,1,1,0]
+            }
         ]
     }
 }
