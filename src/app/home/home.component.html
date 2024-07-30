@@ -44,8 +44,13 @@
                         <ng-template>
                             <ul class="list-group list-group-horizontal d-flex flex-wrap align-items-start justify-content-center">
                                 <ng-container *ngFor="let skill of skills[key].data">
-                                    <li  class="list-group-item badge badge-primary border rounded m-2">
-                                        {{skill}}
+                                    <li  class="list-group-item badge badge-primary border rounded m-2 d-flex flex-column align-items-center">
+                                        {{skill.skill}}
+                                        <div class="d-flex">
+                                            <ng-container *ngFor="let level of skill.level">
+                                                <div class="border border-dark level" [class.bg-warning]="level == 1"></div>
+                                            </ng-container>
+                                        </div>
                                     </li>
                                 </ng-container>
                             </ul>

@@ -2,3 +2,8 @@
     width: 2rem;
     height: 2rem;
 }
+.level {
+    height: 5px;
+    width: 10px;
+    margin: 5px 2px 2px 2px;
+}
