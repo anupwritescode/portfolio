@@ -18,7 +18,7 @@ I'm Anup, a web developer
 from Pune, India. 
 Welcome to my site.`;
 
-  DELAY_CONST: number = 50;
+  DELAY_CONST: number = 75;
   grid: number[][] = [];
   startSnakeGame: boolean = false;
   skills: any = skills;
