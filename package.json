@@ -7,7 +7,7 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "deploy": "ng build && npx angular-cli-ghpages --repo=https://github.com/anupwritescode/portfolio.git base-href=/portfolio/ --dir=dist/portfolio/browser/"
+    "deploy": "ng build && npx angular-cli-ghpages --repo=https://github.com/anupwritescode/portfolio.git --dir=dist/portfolio/browser/"
   },
   "private": true,
   "dependencies": {

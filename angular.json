@@ -20,7 +20,7 @@
             "outputPath": {
               "base": "dist/portfolio"
             },
-            "baseHref": "/portfolio/",
+            "baseHref": "/",
             "index": "src/index.html",
             "polyfills": [
               "src/polyfills.ts"
