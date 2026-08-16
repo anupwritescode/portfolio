@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Anup Salve — Writing &amp; Research</title>
+    <link>https://anupsalve.in/writing</link>
+    <description>Staff-level UI engineering, fine-grained reactivity, web performance, and constitutional law essays by Anup Salve.</description>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 16 Aug 2026 10:00:00 GMT</lastBuildDate>
+    <atom:link href="https://anupsalve.in/assets/rss.xml" rel="self" type="application/rss+xml"/>
+    
+    <item>
+      <title>Fine-Grained Reactivity and the Evolution of UI Runtimes</title>
+      <link>https://anupsalve.in/writing/reactivity-primitives-modern-web</link>
+      <guid>https://anupsalve.in/writing/reactivity-primitives-modern-web</guid>
+      <pubDate>Fri, 14 Nov 2025 00:00:00 GMT</pubDate>
+      <description>An architectural dissection of signals, dependency graphs, and the elimination of wasteful dirty checking in modern browser engines.</description>
+    </item>
+
+    <item>
+      <title>Accessibility as System Architecture: Beyond the ARIA Crutch</title>
+      <link>https://anupsalve.in/writing/accessibility-as-architecture</link>
+      <guid>https://anupsalve.in/writing/accessibility-as-architecture</guid>
+      <pubDate>Fri, 22 Aug 2025 00:00:00 GMT</pubDate>
+      <description>Why retrofitting ARIA attributes onto defective semantic hierarchies fails, and how to design accessible component topologies from first principles.</description>
+    </item>
+
+    <item>
+      <title>Constitutional Frameworks for Digital Sovereignty &amp; Algorithmic Due Process</title>
+      <link>https://anupsalve.in/writing/constitutional-frameworks-digital-sovereignty</link>
+      <guid>https://anupsalve.in/writing/constitutional-frameworks-digital-sovereignty</guid>
+      <pubDate>Wed, 18 Jun 2025 00:00:00 GMT</pubDate>
+      <description>Examining procedural due process, automated decision-making systems, and the imperative for verifiable transparency in public software infrastructures.</description>
+    </item>
+
+    <item>
+      <title>Software Patents vs. The Open Source Commons: An Architectural &amp; Jurisprudential Analysis</title>
+      <link>https://anupsalve.in/writing/software-patents-open-source-inquest</link>
+      <guid>https://anupsalve.in/writing/software-patents-open-source-inquest</guid>
+      <pubDate>Wed, 05 Mar 2025 00:00:00 GMT</pubDate>
+      <description>Evaluating the doctrinal friction between software patent claims and mathematical abstractions under the Alice/Mayo framework.</description>
+    </item>
+
+    <item>
+      <title>Micro-Frontend Orchestration: Memory Leak Containment and State Hydration</title>
+      <link>https://anupsalve.in/writing/micro-frontends-boundary-isolation</link>
+      <guid>https://anupsalve.in/writing/micro-frontends-boundary-isolation</guid>
+      <pubDate>Thu, 30 Jan 2025 00:00:00 GMT</pubDate>
+      <description>Engineering resilient multi-team frontend platforms without ballooning JavaScript payloads or compromising isolated runtime execution.</description>
+    </item>
+
+    <item>
+      <title>The Cognitive Tax of Modern Interfaces: On Restraint and Calm Computing</title>
+      <link>https://anupsalve.in/writing/cognitive-cost-software-interfaces</link>
+      <guid>https://anupsalve.in/writing/cognitive-cost-software-interfaces</guid>
+      <pubDate>Sun, 10 Nov 2024 00:00:00 GMT</pubDate>
+      <description>How visual noise, aggressive notifications, and unnecessary micro-interactions exhaust human attentional bandwidth.</description>
+    </item>
+  </channel>
+</rss>
